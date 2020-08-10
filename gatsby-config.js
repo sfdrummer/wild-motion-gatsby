@@ -1,10 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Wild Motion Films | Kevin Babey | End to end video production`,
+    description: `With over 10 years experience, Kevin offers end-to-end video production, 4.6K, 4K, Ultra HD and 1080p filming, multi-camera and video editing to clients in broadcast, corporate, charities, business and natural history.`,
+    author: `Kevin Babey`,
   },
   plugins: [
+    `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
